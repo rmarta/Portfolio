@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+a {
+    display: block;
+    color: initial;
+    text-decoration: none;
+}
+
+.project {
+    padding: 2rem;
+}
