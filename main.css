@@ -54,7 +54,7 @@ a {
 }
 
 .illustrator-icon:after {
-    content: url(ai.png);
+    content: url(ai.svg);
 }
 
 .project-header {
