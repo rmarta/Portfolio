@@ -5,7 +5,7 @@ body {
 }
 a {
     display: block;
-    color: initial;
+    color: #213240;
     text-decoration: none;
 }
 
@@ -15,10 +15,12 @@ a {
 }
 
 .header {
-    border: 1px solid black;
+    border-bottom: 3px solid #213240;
     font-size: 3rem;
-    padding: 2rem;
+    color: #213240;
+    padding: 1rem;
     text-align: center;
+    /*background: #76B6E5;*/
 }
 
 @media (max-width: 370px) {
@@ -55,6 +57,14 @@ a {
 
 .illustrator-icon:after {
     content: url(ai.svg);
+}
+
+.inkscape-icon:after {
+    content: url(inkscape.svg);
+}
+
+.esri-icon:after {
+    content: url(esri3.svg);
 }
 
 .project-header {
