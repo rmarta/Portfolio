@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 body {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 3rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+
 }
 a {
     display: block;
@@ -13,4 +11,56 @@ a {
 
 .project {
     padding: 2rem;
+    font-size: 2.5rem;
+}
+
+.header {
+    border: 1px solid black;
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+@media (max-width: 370px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 370px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 900px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.description {
+    font-size: 1rem;
+    padding-top: 1rem;
+
+}
+
+.gimp-icon:after {
+    content: url(gimp.svg);
+}
+
+.illustrator-icon:after {
+    content: url(ai.png);
+}
+
+.project-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 1rem;
 }
