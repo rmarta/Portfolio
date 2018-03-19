@@ -9,6 +9,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .project {
     padding: 2rem;
     font-size: 2.5rem;
@@ -21,6 +23,10 @@ a {
     padding: 2rem;
     text-align: center;
     /*background: #76B6E5;*/
+}
+
+.linked-in {
+    font-size: 1.5rem;
 }
 
 @media (max-width: 370px) {
@@ -73,4 +79,8 @@ a {
     align-items: center;
     justify-content: space-between;
     grid-gap: 1rem;
+}
+
+.linked-in > a {
+    color: #0077b5;
 }
