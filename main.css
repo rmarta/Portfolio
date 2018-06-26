@@ -73,6 +73,14 @@ a {
     content: url(esri3.svg);
 }
 
+.qgis-icon:after {
+    content: url(QGIS.svg);
+}
+
+.access-icon:after {
+    content: url(access.svg);
+}
+
 .project-header {
     display: grid;
     grid-template-columns: auto auto;
